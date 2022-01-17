@@ -12,5 +12,4 @@ select *
 
   LOOP AT lt_lfa1 INTO DATA(ls_lfa1).
     WRITE:/ ls_lfa1-name1, ls_lfa1-name2.
-    ULINE.
   ENDLOOP.
