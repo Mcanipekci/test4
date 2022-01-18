@@ -7,5 +7,5 @@ REPORT ZMCI_DENEME11.
 
 SELECT SINGLE *
   FROM kna1
-  INTO @DATA(ls_kna2)
+  INTO @DATA(ls_kna1)
   where stkzn EQ 'X'.
